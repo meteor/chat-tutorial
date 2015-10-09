@@ -58,7 +58,7 @@ Let's replace the code in this app (you can leave the server running). Open the 
 
 Let's go ahead and paste in some css code so the app will look good (we'll ignore the css from here on):
 
-* Copy the CSS from [here](https://github.com/meteor/basic-chat/blob/master/chat-demo.css) (XXX currently private - should probably redo the app in the tutorial build order), paste it into chat.css, and save.
+* Copy the CSS from [here](https://github.com/rdickert/chat-tutorial-code/blob/master/chat1.css), paste it into chat.css, and save.
 
 ## Structure the HTML
 Now add the following to chat.html (make sure you keep comments, enclosed in `<!--  -->` in html – we'll use those as markers to add more code later):
