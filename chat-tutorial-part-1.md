@@ -1,37 +1,13 @@
+{{#template name="simple-chat-step01"}}
+
 # Meet Meteor: Build a chat app in <100 lines of JavaScript - Part One
 
-[Meteor](http://www.meteor.com) has been generating a level of excitement that we haven't seen from web developers in years. 
-
-![](tweet.png)
-
-![](tweet2.png)
-
-In this tutorial, we will see what the excitement is about while exploring the core features and building a functional chat application with very little code. This tutorial will consist of 5 parts:
-
-1. Install Meteor and create your app
-2. [Implement basic chat](chat-tutorial-part-2.md)
-3. [Add user accounts](chat-tutorial-part-3.md)
-4. [Refine the UI of the app](chat-tutorial-part-4.md)
-5. [Deploy the app and create a mobile version](chat-tutorial-part-5.md)
-
-## What is Meteor?
-Meteor is a full-stack platform that includes:
-
-* a CLI tool for creating, modifying, debugging, and deploying projects
-* an all-JavaScript codebase with support for ES2015/ES6 across all platforms (via Babel)
-* a build system that coordinates code for the server, the browser, and mobile clients for iOS and Android
-* integrated features that are essential for modern apps, such as websockets, live database query streaming, and reactive user interfaces.
-
-Meteor shows itself best in action, though, so let's jump straight into the code.
+In this tutorial, we will explore the core features of Meteor by building a functional chat application with very little code. 
 
 ## Install Meteor and create a project
-You can install Meteor in a couple of minutes. You can use [the Windows installer](https://install.meteor.com/windows), or just paste the following into your terminal on Mac and Linux:
+You can install Meteor in a couple of minutes. Installation details for Windows, OS X, and Linux are on our [install page](https://www.meteor.com/install).
 
-```bash
-curl https://install.meteor.com/ | sh
-```
-
-This will install the Meteor CLI tool. You are now ready to create a project. Run these commands in the terminal:
+Now you have the Meteor CLI tool are ready to create a project. Run these commands in the terminal:
 
 ```bash
     meteor create chat # => chat created. To run...
@@ -42,7 +18,7 @@ This will install the Meteor CLI tool. You are now ready to create a project. Ru
     
 This has scaffolded a small app called `chat`.  We also removed a couple of packages, `insecure` and `autopublish`. These packages are designed to make prototyping simpler, but we won't use them here.
 
-Now, in the terminal(while still in the `chat/` directory), type:
+Now, in the terminal (while still in the `chat/` directory), type:
 
 ```
 meteor
@@ -100,6 +76,7 @@ Not only is hot code push great for development, but it also  works in productio
 
 ## Conclusion: Ready to rock
 
-We've installed Meteor and scaffolded our chat app. Notice how little effort this took. Because Meteor has simple installation, easy app creation, an included development server, and hot code push, we are already focusing on our app rather than spending time installing Node.js, MongoDB, a templating system, or other components. In [part two](chat-tutorial-part-2.md), we'll complete the main functionality of the app: rendering messages to all connected clients.
+We've installed Meteor and scaffolded our chat app. Notice how little effort this took. Because Meteor has simple installation, easy app creation, an included development server, and hot code push, we are already focusing on our app rather than spending time installing Node.js, MongoDB, a templating system, or other components. In [the next step](chat-tutorial-part-2.md), we'll complete the main functionality of the app: rendering messages to all connected clients.
+{{/template}}
 
 
