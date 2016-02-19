@@ -48,7 +48,7 @@ We'll stick with simple password-based authentication for the rest of this tutor
 
 ## Configure accounts
 
-If you look at the login widget, it asks for the user's email address. For us it would be simpler to have them choose a username. Let's add configuration under the line `/*account config*/` in chat-demo.js.
+If you look at the login widget, it asks for the user's email address. For us it would be simpler to have them choose a username. Let's add configuration under the line `/*account config*/` in chat.js.
 
 ```javascript
   /*account config*/
